@@ -1,0 +1,41 @@
+form{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: 0 auto;
+}
+label{
+    margin: 15px 0;
+}
+
+input[type=text]{
+    padding: 10px;
+    border: 0px;
+    border-bottom: 1px solid black;
+    box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
+    /*border-radius: 10px;
+    border: 1px solid black;*/
+}
+textarea{
+    width: 100%;
+    resize: vertical;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
+    border: 0;
+}
+
+select{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 4px rgba(0,0,0,0.06);
+}
+
+input:focus{
+    background-color: green;
+    outline: none;
+    color: white;
+}
+
+

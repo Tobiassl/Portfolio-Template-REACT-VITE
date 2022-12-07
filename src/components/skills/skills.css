@@ -1,0 +1,21 @@
+.contenedorSkills{
+    width: 65%;
+    margin: 0 auto;
+    padding-bottom: 70px;
+    padding-top: 70px;
+    padding: 70px 0;
+}
+
+.contenedorSkills h2,.contenedorSkills p
+{
+    text-align: center;
+}
+
+.contenedorImagenes{
+    display: flex;
+}
+.cuatroImagenes{
+    width: 290px;
+    margin-left: 15px;
+    
+}
